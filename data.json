@@ -1,0 +1,519 @@
+[
+  {
+    "title": "Red Spinach (Lal Shak)",
+    "price": 15,
+    "quantity": 1,
+    "quantity_unit": "bundle",
+    "previous_price": 20,
+    "ratings": 5,
+    "total_reviews": 5,
+    "categories": "vegetables_&_fruits",
+    "flash_sale": true,
+    "remaining_time": 2,
+    "image_url": "https://i.imgur.com/0ZFu7gY.png",
+    "availability": "available",
+    "description": [
+      "Red Spinach (Lal Shak) is the most popular vegetable in our country. Peoples eat Lal Shak due to its fabulous taste. Its leaves are normally round, thick, and rich red in shading, however has a bright red hued focal stem. The leaves and stems of red spinach contain a red fluid. This has a sweet, crude flavor and the surface is very soft.",
+
+      "It helps during the time spent defecation since it contains a ton of fiber. This stringy food helps in the digestive system and is valuable for relieving colon cancer growth, diabetes, cholesterol just as for weight reduction.",
+
+      "Red spinach can be eaten from multiple points of view. They can be burned-through either crude or cooked. You can sauté them, use as a serving of mixed salad leaves, blend in vegetables, eggs, nuts, pasta, or cheese. This is utilized generally in Bangladeshi recipes added kinds of flavors, ginger, garlic, onions, creams, and chilies."
+    ]
+  },
+
+  {
+    "title": "Potato Regular",
+    "price": 40,
+    "quantity": 1,
+    "quantity_unit": "kg",
+    "previous_price": 45,
+    "ratings": 4,
+    "total_reviews": 6,
+    "categories": "vegetables_&_fruits",
+    "flash_sale": true,
+    "remaining_time": 2,
+    "image_url": "https://i.imgur.com/tiQlHRA.png",
+    "availability": "available",
+    "description": [
+      "Potatoes are a good source of antioxidants that may reduce the risk of chronic disease.",
+
+      "Alu (Potato) contains resistant starch, which may help decrease insulin obstruction. Thus, this can help improve blood sugar control.",
+
+      "Potatoes (Alu) are a flexible root vegetable and a staple food in numerous families. They are an underground tuber that develops on the underlying foundations of the Solanum tuberosum plant. Potatoes are moderately modest, simple to develop, and contain various kinds of nutrients. Potato is an amazing wellspring of numerous nutrients and minerals."
+    ]
+  },
+  {
+    "title": "Onion (Peyaj) Deshi",
+    "price": 60,
+    "quantity": 1,
+    "quantity_unit": "kg",
+    "previous_price": 80,
+    "ratings": 5,
+    "total_reviews": 6,
+    "categories": "vegetables_&_fruits",
+    "flash_sale": false,
+    "remaining_time": null,
+    "image_url": "https://i.imgur.com/4oNSS3J.png",
+    "availability": "available",
+    "description": [
+      "Onions (Peyaj) are low in calories yet high in supplements, including vitamin C, B, and potassium.",
+
+      "Examination shows that eating onions may help decrease heart illness risk factors, for example, hypertension, raised fatty oil levels, and inflammation.",
+
+      "Because of the numerous gainful mixes found in onions, burning-through them may help reduce high blood sugar",
+
+      "Onions are a great source of prebiotics, which help support digestive health, improve bacterial equilibrium in your gut, and help your immune system ."
+    ]
+  },
+  {
+    "title": "Red Tomato",
+    "price": 55,
+    "quantity": 1,
+    "quantity_unit": "kg",
+    "previous_price": 95,
+    "ratings": 5,
+    "total_reviews": 10,
+    "categories": "vegetables_&_fruits",
+    "flash_sale": false,
+    "remaining_time": null,
+    "image_url": "https://i.imgur.com/Yo0SRnx.png",
+    "availability": "available",
+    "description": [
+      "Fresh and organic.",
+
+      "Tomato is the best source of the mineral, vitamin C, K, potassium, and folate.",
+
+      "Also, it is another great source of the antioxidant lycopene, which has been connected to numerous medical advantages.",
+
+      "As well as Tomato is the best for skin health, as it might ensure against burns from the sun.",
+
+      "Tomatoes are the significant dietary wellspring of the cell reinforcement lycopene, which has been connected to numerous medical advantages, including the reduced danger of heart illness and cancer. Also, it is the best source of vitamin C, K, potassium, and folate."
+    ]
+  },
+  {
+    "title": "Badhakopi (Cabbage)",
+    "price": 40,
+    "quantity": 1,
+    "quantity_unit": "Pcs",
+    "previous_price": 78,
+    "ratings": 5,
+    "total_reviews": 18,
+    "categories": "vegetables_&_fruits",
+    "flash_sale": true,
+    "remaining_time": 1,
+    "image_url": "https://i.imgur.com/EgOBdWd.png",
+    "availability": "available",
+    "description": [
+      "Cabbage may be a low-calorie vegetable that’s plentiful in nutrients, minerals, and cancer prevention agents.",
+
+      "Cabbage contains ground-breaking antioxidants which will help reduce inflammation.",
+
+      "Your body needs nutrient C for a few significant capacities, and it’s an intense cancer prevention agent.",
+
+      "Cabbage contains insoluble fiber, which keeps the stomach circulation healthy by giving fuel to friendly bacteria and advancing standard defecations.",
+
+      "Cabbage contains amazing pigments called anthocyanins, which are seemed to diminish the danger of coronary illness.",
+
+      "Expanding your admission of potassium-rich food like cabbage may help lower hypertension levels."
+    ]
+  },
+  {
+    "title": "Banana Sagor",
+    "price": 115,
+    "quantity": 12,
+    "quantity_unit": "Pcs",
+    "previous_price": 120,
+    "ratings": 5,
+    "total_reviews": 7,
+    "categories": "vegetables_&_fruits",
+    "flash_sale": true,
+    "remaining_time": 1,
+    "image_url": "https://i.imgur.com/4uNP6A9.png",
+    "availability": "available",
+    "description": [
+      "Bananas are a nutrient-rich fruit that is low in calories and high in essential vitamins and minerals.",
+      "Bananas are an excellent source of potassium, an essential mineral that helps regulate blood pressure and heart function.",
+      "The fiber content in bananas promotes healthy digestion and regular bowel movements.",
+      "Bananas contain vitamin C, an antioxidant that supports immune function and skin health.",
+      "Bananas are a convenient and portable snack option, perfect for on-the-go energy and quick replenishment of electrolytes after exercise.",
+      "Incorporating bananas into your diet may help reduce the risk of developing chronic diseases such as heart disease and stroke."
+    ]
+  },
+  {
+    "title": "Coconut",
+    "price": 70,
+    "quantity": 1,
+    "quantity_unit": "Pcs",
+    "previous_price": 75,
+    "ratings": 5,
+    "total_reviews": 7,
+    "categories": "vegetables_&_fruits",
+    "flash_sale": false,
+    "remaining_time": null,
+    "image_url": "https://i.imgur.com/59B7XCj.png",
+    "availability": "In Stock",
+    "description": [
+      "Coconuts are a versatile fruit known for their rich flavor and nutritional benefits.",
+      "Coconut meat is high in healthy fats, including medium-chain triglycerides (MCTs), which are easily metabolized for energy and may aid in weight management.",
+      "Coconuts are a good source of fiber, promoting digestive health and regular bowel movements.",
+      "Coconut water is a natural electrolyte-rich beverage that helps replenish fluids and minerals lost through sweating, making it an ideal choice for hydration.",
+      "Coconut oil is prized for its various culinary and beauty applications, including cooking, skincare, and haircare.",
+      "Incorporating coconuts into your diet may support heart health, improve cholesterol levels, and boost immune function due to their antioxidant properties."
+    ]
+  },
+  {
+    "title": "Gala Apple",
+    "price": 180,
+    "quantity": 1,
+    "quantity_unit": "kg",
+    "previous_price": 185,
+    "ratings": 3,
+    "total_reviews": 13,
+    "categories": "vegetables_&_fruits",
+    "flash_sale": true,
+    "remaining_time": 5,
+    "image_url": "https://i.imgur.com/YG1JgLX.png",
+    "availability": "Available",
+    "description": [
+      "Apples are a popular and nutritious fruit known for their crisp texture and sweet-tart flavor.",
+      "Apples are rich in dietary fiber, particularly soluble fiber like pectin, which supports digestive health and helps regulate blood sugar levels.",
+      "Apples are a good source of vitamin C, an antioxidant that boosts immune function and promotes skin health.",
+      "The polyphenols found in apples have been linked to various health benefits, including reducing the risk of heart disease, stroke, and certain types of cancer.",
+      "Apples are low in calories and contain no fat or cholesterol, making them a guilt-free snack choice for weight management.",
+      "Incorporating apples into your diet may help improve overall health and contribute to a balanced and nutritious eating plan."
+    ]
+  },
+  {
+    "title": "Chalta",
+    "price": 40,
+    "quantity": 1,
+    "quantity_unit": "Pcs",
+    "previous_price": 50,
+    "ratings": 5,
+    "total_reviews": 10,
+    "categories": "vegetables_&_fruits",
+    "flash_sale": false,
+    "remaining_time": null,
+    "image_url": "https://i.imgur.com/KQjXVPD.png",
+    "availability": "In Stock",
+    "description": [
+      "Chalta, also known as bengal currant or Indian blackberry, is a small, sour fruit native to South Asia.",
+      "Chalta is rich in antioxidants, vitamins, and minerals, making it a nutritious addition to your diet.",
+      "The high vitamin C content in chalta helps boost immune function and promotes healthy skin.",
+      "Chalta is low in calories and contains dietary fiber, which supports digestive health and helps maintain a feeling of fullness.",
+      "The tart flavor of chalta makes it a versatile ingredient in both sweet and savory dishes, including jams, chutneys, sauces, and desserts.",
+      "Incorporating chalta into your diet may provide various health benefits, including improved digestion, enhanced immune function, and potential protection against chronic diseases."
+    ]
+  },
+  {
+    "title": "Chashi Chinigura Rice",
+    "price": 120,
+    "quantity": 1,
+    "quantity_unit": "kg",
+    "previous_price": 130,
+    "ratings": 5,
+    "total_reviews": 10,
+    "categories": "cooking",
+    "flash_sale": true,
+    "remaining_time": 7,
+    "image_url": "",
+    "availability": "Available",
+    "description": [
+      "Pack in a state-of-the-art manner by collecting from the selected best varieties of grains in a fully automated machine.",
+      "Clean and White.",
+      "Non-sticky and delicious fragrant pulao and biryani.",
+      "Pleasantly aromatic dish."
+    ]
+  },
+  {
+    "title": "Radhuni Chicken Masala",
+    "price": 65,
+    "quantity": 1,
+    "quantity_unit": "Pcs",
+    "previous_price": 110,
+    "ratings": 5,
+    "total_reviews": 10,
+    "categories": "cooking",
+    "flash_sale": false,
+    "remaining_time": null,
+    "image_url": "",
+    "availability": "Available",
+    "description": [
+      "It has all the spices necessary to cook a chicken dish.",
+      "It enhances the taste and fragrance.",
+      "Make a delicious chicken dishes.",
+      "Easy to cook."
+    ]
+  },
+  {
+    "title": "Teer Soyabean Oil",
+    "price": 800,
+    "quantity": 5,
+    "quantity_unit": "litre",
+    "previous_price": 950,
+    "ratings": 5,
+    "total_reviews": 10,
+    "categories": "cooking",
+    "flash_sale": true,
+    "remaining_time": 5,
+    "image_url": "https://i.imgur.com/8Jx6nAv.png",
+    "availability": "Available",
+    "description": [
+      "Teer Fortified Soyabean Oil follows 3 stages of refining measure: Perfect Degumming & Neutralization, Balanced De-colorization and Five stages Deodorization to guarantee the right proportion of Omega 3 and 6 and unblemished Beta-carotene in Soyabean Oil.",
+      "Also, Teer soyabean oil contains Vitamin A.",
+      "Its fresh and healthy."
+    ]
+  },
+  {
+    "title": "Fresh Super Premium (Vacuum) Salt",
+    "price": 32,
+    "quantity": 1,
+    "quantity_unit": "kg",
+    "previous_price": 50,
+    "ratings": 2,
+    "total_reviews": 10,
+    "categories": "cooking",
+    "flash_sale": false,
+    "remaining_time": null,
+    "image_url": "https://i.imgur.com/72PwOl3.png",
+    "availability": "In Stock",
+    "description": [
+      "Fresh Super Salt undergoes a meticulous refining process to ensure purity and quality, including advanced purification techniques to remove impurities and maintain optimal mineral balance.",
+      "Enriched with essential minerals, Fresh Super Salt provides vital nutrients for overall health and well-being.",
+      "With its fine texture and natural taste, Fresh Super Salt enhances the flavor of your dishes while providing essential sodium for proper bodily functions.",
+      "Fresh Super Salt is meticulously processed to preserve its freshness and purity, ensuring a delightful culinary experience with every use."
+    ]
+  },
+  {
+    "title": "Deshi Moshur Dal",
+    "price": 150,
+    "quantity": 1,
+    "quantity_unit": "kg",
+    "previous_price": 180,
+    "ratings": 3,
+    "total_reviews": 10,
+    "categories": "cooking",
+    "flash_sale": true,
+    "remaining_time": 4,
+    "image_url": "https://i.imgur.com/ynZ2Vra.png",
+    "availability": "Available",
+    "description": [
+      "Settles blood sugar level.",
+      "Keeps the heart healthy by lowering cholesterol.",
+      "Powerful remedy against weight loss.",
+      "Anti-aging properties.",
+      "Provide nourishing teeth and bones.",
+      "Supportive in maintaining a healthy vision.",
+      "Helpful for glowing and radiating skin."
+    ]
+  },
+  {
+    "title": "Aarong Butter",
+    "price": 100,
+    "quantity": 100,
+    "quantity_unit": "gm",
+    "previous_price": 120,
+    "ratings": 5,
+    "total_reviews": 10,
+    "categories": "dairy",
+    "flash_sale": true,
+    "remaining_time": 4,
+    "image_url": "https://i.imgur.com/zTdqeEQ.png",
+    "availability": "Available",
+    "description": [
+      "It contains low calories that lessen the risk of getting fat.",
+      "It is delivered from fresh cream of authentic cow milk, So its supplements are rich.",
+      "Powerful remedy against weight loss.",
+      "Anti-aging properties.",
+      "You can use it in various numbers of the dish.",
+      "Additionally, it is the correct decision to use as breakfast spreading in bread and feel the taste and smooth surface of the butter."
+    ]
+  },
+  {
+    "title": "Pran Premium Ghee",
+    "price": 310,
+    "quantity": 200,
+    "quantity_unit": "gm",
+    "previous_price": 350,
+    "ratings": 2,
+    "total_reviews": 10,
+    "categories": "dairy",
+    "flash_sale": false,
+    "remaining_time": null,
+    "image_url": "https://i.imgur.com/mNhviaT.png",
+    "availability": "In Stock",
+    "description": [
+      "Pran Premium ghee produced from fresh cream of cow milk.",
+      "Completely fresh and healthy.",
+      "100% natural and genuine taste.",
+      "Full of nutrition.",
+      "Enhance taste and aroma."
+    ]
+  },
+  {
+    "title": "Red Cow Butter Oil",
+    "price": 500,
+    "quantity": 400,
+    "quantity_unit": "gm",
+    "previous_price": 500,
+    "ratings": 5,
+    "total_reviews": 15,
+    "categories": "dairy",
+    "flash_sale": true,
+    "remaining_time": 2,
+    "image_url": "https://i.imgur.com/15kenUj.png",
+    "availability": "Available",
+    "description": [
+      "Red Cow Butter Oil is crafted with care from premium quality dairy milk, ensuring a rich and creamy texture with a delightful taste.",
+      "Made using traditional churned methods, Red Cow Butter Oil preserves the natural flavor and nutritional goodness of pure butter.",
+      "Rich in essential fatty acids and vitamins, Red Cow Butter Oil provides a nourishing source of energy and supports overall health and well-being.",
+      "Perfect for cooking, baking, or spreading on toast, Red Cow Butter Oil adds a rich and savory flavor to your favorite dishes.",
+      "With its unmistakable aroma and smooth consistency, Red Cow Butter Oil is a versatile ingredient that elevates any culinary creation."
+    ]
+  },
+  {
+    "title": "Pran Premium Butter",
+    "price": 260,
+    "quantity": 200,
+    "quantity_unit": "gm",
+    "previous_price": 300,
+    "ratings": 1,
+    "total_reviews": 15,
+    "categories": "dairy",
+    "flash_sale": false,
+    "remaining_time": null,
+    "image_url": "https://i.imgur.com/Nl4rfux.png",
+    "availability": "In Stock",
+    "description": [
+      "It contains low calories that reduce the danger of getting fat.",
+      "It is produced from fresh cream of authentic cow milk, So the nutrients of it are very rich.",
+      "You can utilize it in a significant number of the dish.",
+      "Also, it is the right choice to use as breakfast spreading in bread and feel the taste and creamy surface of the butter."
+    ]
+  },
+  {
+    "title": "Milk Vita Butter",
+    "price": 135,
+    "quantity": 100,
+    "quantity_unit": "gm",
+    "previous_price": 150,
+    "ratings": 2,
+    "total_reviews": 12,
+    "categories": "dairy",
+    "flash_sale": true,
+    "remaining_time": 4,
+    "image_url": "https://i.imgur.com/ijqM3Iy.png",
+    "availability": "Available",
+    "description": [
+      "It contains low calories that decrease the risk of getting fat.",
+      "It is created from new cream of natural cows milk, So its supplements are exceptionally rich.",
+      "You can use it in a noteworthy number of the dish.",
+      "Also, it is the perfect selection to use as breakfast spreading in bread and feel the taste and smooth surface of the butter."
+    ]
+  },
+  {
+    "title": "Golda (Chingri)",
+    "price": 320,
+    "quantity": 500,
+    "quantity_unit": "gm",
+    "previous_price": 400,
+    "ratings": 5,
+    "total_reviews": 20,
+    "categories": "fish",
+    "flash_sale": true,
+    "remaining_time": 2,
+    "image_url": "https://i.imgur.com/0abBa2C.png",
+    "availability": "Available",
+    "description": [
+      "Golda Chingri, also known as Giant Tiger Prawn, is a prized delicacy renowned for its succulent meat and exquisite flavor.",
+      "Sourced from pristine waters, Golda Chingri is carefully selected for its premium quality and freshness, ensuring a delightful dining experience.",
+      "With its firm texture and sweet taste, Golda Chingri is a versatile seafood option that can be grilled, sautéed, or added to curries for an indulgent meal.",
+      "Rich in protein and low in fat, Golda Chingri provides a healthy source of nutrition while satisfying your taste buds.",
+      "Whether served as a main course or incorporated into appetizers and salads, Golda Chingri is sure to impress with its superior taste and texture."
+    ]
+  },
+  {
+    "title": "Rupchanda Fish",
+    "price": 685,
+    "quantity": 1,
+    "quantity_unit": "kg",
+    "previous_price": 800,
+    "ratings": 5,
+    "total_reviews": 20,
+    "categories": "fish",
+    "flash_sale": true,
+    "remaining_time": 2,
+    "image_url": "https://i.imgur.com/prcpcj3.png",
+    "availability": "Available",
+    "description": [
+      "Rupchada Fish, also known as Rupchand, is a popular freshwater fish prized for its delicate flavor and tender texture.",
+      "Caught from pristine rivers and lakes, Rupchada Fish is carefully selected to ensure superior quality and freshness.",
+      "With its mild, sweet taste and flaky white flesh, Rupchada Fish is perfect for grilling, frying, or steaming, allowing its natural flavors to shine through.",
+      "Rich in omega-3 fatty acids and essential nutrients, Rupchada Fish offers numerous health benefits, including support for heart health and brain function.",
+      "Whether served as a standalone dish or used in soups, stews, or curries, Rupchada Fish is a versatile and nutritious option for seafood lovers."
+    ]
+  },
+  {
+    "title": "Hilsha Fish",
+    "price": 385,
+    "quantity": 1,
+    "quantity_unit": "Pcs",
+    "previous_price": 500,
+    "ratings": 5,
+    "total_reviews": 20,
+    "categories": "fish",
+    "flash_sale": true,
+    "remaining_time": 2,
+    "image_url": "https://i.imgur.com/wM4qrj1.png",
+    "availability": "Available",
+    "description": [
+      "Hilsha Fish, also known as Ilish, is a prized delicacy renowned for its distinct flavor and rich, oily texture.",
+      "Caught from the estuaries and rivers of South Asia, Hilsha Fish is revered for its freshness and premium quality.",
+      "With its tender, succulent flesh and natural umami taste, Hilsha Fish is a favorite among seafood enthusiasts and connoisseurs.",
+      "Rich in omega-3 fatty acids, vitamins, and minerals, Hilsha Fish offers numerous health benefits, including support for heart health and brain function.",
+      "Whether grilled, steamed, or cooked in traditional curries, Hilsha Fish delights the palate with its unique flavor and exquisite texture, making it a centerpiece of Bengali cuisine."
+    ]
+  },
+  {
+    "title": "Pabda Fish",
+    "price": 360,
+    "quantity": 1,
+    "quantity_unit": "kg",
+    "previous_price": 450,
+    "ratings": 3,
+    "total_reviews": 20,
+    "categories": "fish",
+    "flash_sale": false,
+    "remaining_time": null,
+    "image_url": "https://i.imgur.com/XvkxCJF.png",
+    "availability": "In Stock",
+    "description": [
+      "Pabda Fish, also known as butterfish or catfish, is a freshwater delicacy prized for its tender flesh and mild, sweet flavor.",
+      "Sourced from clean rivers and ponds, Pabda Fish is carefully selected to ensure premium quality and freshness.",
+      "With its soft, flaky texture and delicate taste, Pabda Fish is versatile and can be prepared in various ways, including frying, steaming, or cooking in curries.",
+      "Pabda Fish is rich in protein and essential nutrients, making it a nutritious addition to your diet and supporting overall health and well-being.",
+      "Whether served as a standalone dish or incorporated into traditional recipes, Pabda Fish is sure to delight your taste buds with its subtle yet satisfying flavor."
+    ]
+  },
+  {
+    "title": "Koi Fish Deshi",
+    "price": 265,
+    "quantity": 1,
+    "quantity_unit": "kg",
+    "previous_price": 350,
+    "ratings": 3,
+    "total_reviews": 20,
+    "categories": "fish",
+    "flash_sale": false,
+    "remaining_time": null,
+    "image_url": "https://i.imgur.com/pxH77K7.png",
+    "availability": "In Stock",
+    "description": [
+      "Koi Fish, also known as climbing perch or Anabas testudineus, is a popular freshwater fish prized for its firm texture and distinct flavor.",
+      "Harvested from freshwater bodies such as ponds and lakes, Koi Fish is carefully selected to ensure premium quality and freshness.",
+      "With its tender, flaky flesh and mildly sweet taste, Koi Fish is a versatile ingredient that can be grilled, fried, or stewed to perfection.",
+      "Koi Fish is rich in protein and essential nutrients, making it a healthy choice for your diet and providing valuable nutrients for your body.",
+      "Whether served as a main course or used in soups, salads, or stir-fries, Koi Fish offers a delightful culinary experience with every bite."
+    ]
+  }
+]
