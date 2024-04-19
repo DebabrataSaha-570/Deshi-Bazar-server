@@ -1,6 +1,8 @@
 require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
+const bcrypt = require("bcrypt");
+const jwt = require("jsonwebtoken");
 const { MongoClient, ObjectId } = require("mongodb");
 
 const app = express();
@@ -25,13 +27,14 @@ async function run() {
 
     const db = client.db("deshiBazar");
     const productsCollection = db.collection("products");
+    const userCollection = db.collection("users");
 
     // User Registration
     app.post("/api/v1/register", async (req, res) => {
       const { name, email, password } = req.body;
 
       // Check if email already exists
-      const existingUser = await collection.findOne({ email });
+      const existingUser = await userCollection.findOne({ email });
       if (existingUser) {
         return res.status(400).json({
           success: false,
@@ -43,7 +46,7 @@ async function run() {
       const hashedPassword = await bcrypt.hash(password, 10);
 
       // Insert user into the database
-      await collection.insertOne({ name, email, password: hashedPassword });
+      await userCollection.insertOne({ name, email, password: hashedPassword });
 
       res.status(201).json({
         success: true,
@@ -56,7 +59,7 @@ async function run() {
       const { email, password } = req.body;
 
       // Find user by email
-      const user = await collection.findOne({ email });
+      const user = await userCollection.findOne({ email });
       if (!user) {
         return res.status(401).json({ message: "Invalid email or password" });
       }
@@ -68,9 +71,13 @@ async function run() {
       }
 
       // Generate JWT token
-      const token = jwt.sign({ email: user.email }, process.env.JWT_SECRET, {
-        expiresIn: process.env.EXPIRES_IN,
-      });
+      const token = jwt.sign(
+        { email: user.email, name: user.name },
+        process.env.JWT_SECRET,
+        {
+          expiresIn: process.env.EXPIRES_IN,
+        }
+      );
 
       res.json({
         success: true,
