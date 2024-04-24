@@ -31,7 +31,7 @@ async function run() {
 
     // User Registration
     app.post("/api/v1/register", async (req, res) => {
-      const { name, email, password } = req.body;
+      const { name, email, password, role } = req.body;
 
       // Check if email already exists
       const existingUser = await userCollection.findOne({ email });
@@ -46,7 +46,12 @@ async function run() {
       const hashedPassword = await bcrypt.hash(password, 10);
 
       // Insert user into the database
-      await userCollection.insertOne({ name, email, password: hashedPassword });
+      await userCollection.insertOne({
+        name,
+        email,
+        password: hashedPassword,
+        role,
+      });
 
       res.status(201).json({
         success: true,
@@ -72,7 +77,7 @@ async function run() {
 
       // Generate JWT token
       const token = jwt.sign(
-        { email: user.email, name: user.name },
+        { email: user.email, name: user.name, role: user.role },
         process.env.JWT_SECRET,
         {
           expiresIn: process.env.EXPIRES_IN,
@@ -90,6 +95,7 @@ async function run() {
       const product = req.body;
       console.log("product", product);
       const result = await productsCollection.insertOne(product);
+      console.log(result);
       res.json(result);
     });
 
@@ -112,6 +118,19 @@ async function run() {
       }
     });
 
+    app.get("/api/v1/users", async (req, res) => {
+      try {
+        const users = userCollection.find({});
+        const result = await users.toArray();
+        if (result) {
+          res.json(result);
+        }
+      } catch (err) {
+        console.log(err);
+        res.status(500).json({ error: "Internal server error" });
+      }
+    });
+
     app.get("/api/v1/product/:productId", async (req, res) => {
       const id = req.params.productId;
       try {
@@ -126,6 +145,15 @@ async function run() {
         console.error("Error ", error);
         res.status(500).json({ error: "Internal server error" });
       }
+    });
+
+    app.delete("/api/v1/user/:id", async (req, res) => {
+      const id = req.params.id;
+      console.log(id);
+      const query = { _id: new ObjectId(id) };
+      const result = await userCollection.deleteOne(query);
+      console.log(result);
+      res.json(result);
     });
 
     // Start the server
