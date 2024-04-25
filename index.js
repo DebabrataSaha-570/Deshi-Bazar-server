@@ -147,6 +147,15 @@ async function run() {
       }
     });
 
+    app.put("/api/v1/user/:userId", async (req, res) => {
+      const id = req.params.userId;
+      const filter = { _id: new ObjectId(id) };
+      const options = { upsert: true };
+      const updateDoc = { $set: { role: "admin" } };
+      const result = await userCollection.updateOne(filter, updateDoc, options);
+      res.json(result);
+    });
+
     app.delete("/api/v1/user/:id", async (req, res) => {
       const id = req.params.id;
       console.log(id);
