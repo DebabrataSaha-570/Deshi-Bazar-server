@@ -149,10 +149,10 @@ async function run() {
 
     app.put("/api/v1/user/:userId", async (req, res) => {
       const id = req.params.userId;
-      const filter = { _id: new ObjectId(id) };
+      const query = { _id: new ObjectId(id) };
       const options = { upsert: true };
       const updateDoc = { $set: { role: "admin" } };
-      const result = await userCollection.updateOne(filter, updateDoc, options);
+      const result = await userCollection.updateOne(query, updateDoc, options);
       res.json(result);
     });
 
@@ -162,6 +162,15 @@ async function run() {
       const query = { _id: new ObjectId(id) };
       const result = await userCollection.deleteOne(query);
       console.log(result);
+      res.json(result);
+    });
+
+    app.delete("/api/v1/product/:id", async (req, res) => {
+      const id = req.params.id;
+      console.log(id);
+      const query = { _id: new ObjectId(id) };
+      const result = await productsCollection.deleteOne(query);
+      // console.log(result);
       res.json(result);
     });
 
