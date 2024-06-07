@@ -99,6 +99,46 @@ async function run() {
       res.json(result);
     });
 
+    app.post("/api/v1/review", async (req, res) => {
+      const reviewData = req.body;
+      console.log("review", reviewData);
+      const productId = reviewData.productId;
+      const reviewText = reviewData.reviewText;
+
+      try {
+        const productQuery = { _id: new ObjectId(productId) };
+        let product = await productsCollection.findOne(productQuery);
+
+        if (!product.reviews) {
+          product.reviews = [];
+        }
+
+        product.reviews.push(reviewText);
+
+        const updateResult = await productsCollection.updateOne(productQuery, {
+          $set: { reviews: product.reviews },
+        });
+        if (
+          updateResult.matchedCount === 1 &&
+          updateResult.modifiedCount === 1
+        ) {
+          res.status(200).json({
+            success: true,
+            message: "Review added successfully",
+          });
+        } else {
+          res.status(500).json({
+            success: false,
+            message: "Failed to add review",
+          });
+        }
+      } catch (err) {
+        res.status(500).json({ error: "Internal server error" });
+      }
+    });
+
+    //Get api
+
     app.get("/api/v1/products", async (req, res) => {
       console.log("query", req.query);
       try {

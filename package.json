@@ -8,7 +8,7 @@
     "dev": "nodemon index.js",
     "start": "node index.js"
   },
-  "author": "Programming Hero",
+  "author": "Debabrata Saha",
   "license": "ISC",
   "dependencies": {
     "@types/bcrypt": "^5.0.2",
