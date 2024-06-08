@@ -104,6 +104,7 @@ async function run() {
       console.log("review", reviewData);
       const productId = reviewData.productId;
       const reviewText = reviewData.reviewText;
+      const reviewerEmail = reviewText.email;
 
       try {
         const productQuery = { _id: new ObjectId(productId) };
@@ -113,7 +114,17 @@ async function run() {
           product.reviews = [];
         }
 
-        product.reviews.push(reviewText);
+        const existingReviews = product.reviews.filter(
+          (review) => review.email === reviewerEmail
+        );
+        if (existingReviews.length) {
+          //update the existing review
+          const indexToUpdate = product.reviews.indexOf(existingReviews[0]);
+          product.reviews[indexToUpdate] = reviewText;
+        } else {
+          //Add a new review
+          product.reviews.push(reviewText);
+        }
 
         const updateResult = await productsCollection.updateOne(productQuery, {
           $set: { reviews: product.reviews },
