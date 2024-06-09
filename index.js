@@ -207,6 +207,8 @@ async function run() {
       res.json(result);
     });
 
+    //Delete api
+
     app.delete("/api/v1/user/:id", async (req, res) => {
       const id = req.params.id;
       console.log(id);
@@ -223,6 +225,55 @@ async function run() {
       const result = await productsCollection.deleteOne(query);
       // console.log(result);
       res.json(result);
+    });
+
+    app.delete("/api/v1/review/:productId/:reviewerEmail", async (req, res) => {
+      const productId = req.params.productId;
+      const reviewerEmail = req.params.reviewerEmail;
+
+      try {
+        const productQuery = { _id: new ObjectId(productId) };
+
+        let product = await productsCollection.findOne(productQuery);
+
+        if (!product) {
+          return res.status(404).json({ error: "Product not found" });
+        }
+
+        const reviewIndex = product.reviews.findIndex(
+          (review) => review.reviewerEmail === reviewerEmail
+        );
+
+        if (reviewIndex === -1) {
+          return res.status(404).json({ error: "Review not found" });
+        }
+
+        // Remove the review from the product's reviews array
+        product.reviews.splice(reviewIndex, 1);
+
+        // Update the product document without the removed review
+        const updateResult = await productsCollection.updateOne(productQuery, {
+          $set: { reviews: product.reviews },
+        });
+
+        if (
+          updateResult.matchedCount === 1 &&
+          updateResult.modifiedCount === 1
+        ) {
+          res.status(200).json({
+            success: true,
+            message: "Review deleted successfully",
+          });
+        } else {
+          res.status(500).json({
+            success: false,
+            message: "Failed to delete review",
+          });
+        }
+      } catch (error) {
+        console.error("Error deleting review:", error);
+        res.status(500).json({ error: "Internal server error" });
+      }
     });
 
     // Start the server
